@@ -3,9 +3,10 @@ setup:
 	python -m venv .venv
 	.venv/bin/pip install pipenv
 	.venv/bin/python -m pipenv install
+	git remote remove origin
 
 check:
-	.venv/bin/flake8 --check
+	.venv/bin/flake8 .
 
 format:
 	.venv/bin/isort .

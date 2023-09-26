@@ -15,10 +15,7 @@ class UserManager(BaseUserManager):
     ):
         now = timezone.now()
         email = self.normalize_email(email)
-        username = str(email).split('@')[0]
-        print(f'Username in create {username} e email : {email}')
         user = self.model(
-            username=username,
             email=email,
             is_staff=is_staff,
             is_active=True,

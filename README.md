@@ -21,7 +21,7 @@ $ git clone https://github.com/marcospsviana/django-ecommerce.git
 ~~~
 rename directory for your project name
 ~~~shell
-$ rm django-base-user your-project-directory && cd your-project-directory
+$ mv django-base-user your-project-directory && cd your-project-directory
 ~~~
 setup initial the app user for project and install principal dependencies 
 ~~~shell

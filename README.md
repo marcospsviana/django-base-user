@@ -17,7 +17,7 @@ It is highly recommended, every time you create a project, to override django's 
 
 clone this repository into empty directory
 ~~~shell
-$ git clone https://github.com:marcospsviana/django-base-user.git
+$ git clone https://github.com:marcospsviana/django-base-user
 ~~~
 rename directory for your project name
 ~~~shell

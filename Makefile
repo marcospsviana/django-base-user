@@ -2,7 +2,7 @@ SHELL: /bin/bash
 setup:
 	python -m venv .venv
 	.venv/bin/pip install pipenv
-	.venv/bin/python -m pipenv install
+	.venv/bin/python -m pipenv sync -d
 	git remote remove origin
 
 check:
